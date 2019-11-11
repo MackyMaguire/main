@@ -96,9 +96,7 @@ Example: `delete 1`
 
 [NOTE]
 ====
-.Note:
-
-* Deleting a restaurant will delete all its existing orders from the order database as well.
+Deleting a restaurant will delete all its existing orders from the order database as well.
 ====
 
 
@@ -133,10 +131,7 @@ image::userguide\EditDetails.png[width="790"]
 
 [NOTE]
 ====
-.Note:
-
-* Editing a restaurant's name will edit the restaurant name in all its existing orders as well.
-
+Editing a restaurant's name will edit the restaurant name in all its existing orders as well.
 ====
 
 
@@ -160,8 +155,7 @@ Example: `delete 1`
 
 [NOTE]
 ====
-.Note:
-* Deleting a food item from a restaurant will NOT delete the food item in the restaurant's orders as
+Deleting a food item from a restaurant will NOT delete the food item in the restaurant's orders as
 the order was made when the food item was still available.
 ====
 
@@ -198,8 +192,7 @@ image::userguide\AutoTag.png[width="790"]
 
 [NOTE]
 ====
-.Note:
-* Food items' quantity ordered will only be updated upon completion of an order.
+Food items' quantity ordered will only be updated upon completion of an order.
 ====
 
 
@@ -244,7 +237,7 @@ accessible in `Context.RESTAURANT`, and entering a valid `EditModeCommand` will 
 
 The following class diagram shows the relevant structure of `Logic` and `Parser`:
 
-image::developerguide\ParserClassDiagram.png[]
+image::developerguide\ParserClassDiagram.png[width="420"]
 
 When the user inputs a command:
 
